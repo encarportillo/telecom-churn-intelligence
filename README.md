@@ -98,7 +98,7 @@ telecom-churn-intelligence/
 
 ```bash
 # 1. Clonar el repositorio
-git clone <repository-url>
+git clone https://github.com/encarportillo/telecom-churn-intelligence.git
 cd telecom-churn-intelligence
 
 # 2. Crear entorno virtual
