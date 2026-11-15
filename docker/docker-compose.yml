@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  churn-api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: telecom_churn_api
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - MODEL_PATH=outputs/models/telecom_churn_pipeline.joblib
+    restart: unless-stopped

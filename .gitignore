@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.py[cod]
+*.joblib
+artifacts/
+data/raw/
+data/processed/
+.env
+.env.*
+!.env.example
+google-credentials.json
+
+# GCP Credentials
+config/*.json
+.env

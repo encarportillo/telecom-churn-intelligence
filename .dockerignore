@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+.env
+config/*.json
+notebooks/
+tests/
+.pytest_cache/
