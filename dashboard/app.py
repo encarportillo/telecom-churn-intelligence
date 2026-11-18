@@ -53,6 +53,15 @@ with col3:
 
 st.divider()
 
+st.markdown(
+    """
+    **Origen de los datos:** para este proyecto se utilizaron datos públicos alojados en
+    [Kaggle: Telco customer churn: IBM dataset](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset).
+    """
+)
+
+st.divider()
+
 st.info(
     "👈 **Selecciona una sección en el menú lateral izquierdo** para comenzar la navegación interactiva."
 )

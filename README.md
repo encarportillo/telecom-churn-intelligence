@@ -4,6 +4,12 @@ Una solución de **Machine Learning empresarial** integrada y completa para pred
 
 ---
 
+## Origen de los datos
+
+Para este proyecto se utilizaron datos públicos alojados en Kaggle: [Telco customer churn: IBM dataset](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset).
+
+---
+
 ## 🎯 Propósito y Valor
 
 - **Predicción Temprana**: Identifica clientes con alto riesgo de cancelación mediante XGBoost/Logistic Regression.
